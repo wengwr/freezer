@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+
+    <TextView
+        android:id="@+id/tv_view_typetemp_starttemp"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:gravity="center"
+        android:text="0℃"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="~"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_view_typetemp_endtemp"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:gravity="center"
+        android:text="3℃"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        android:text="保质期："
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tv_view_typetemp_quality"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:text="3天"
+        android:textSize="15sp" />
+
+
+</LinearLayout>

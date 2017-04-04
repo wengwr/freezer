@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <attr name="lrbutton" format="reference|color"/><!-- 固定页面底部按钮字体颜色 -->
+    <attr name="mexit" format="reference|color"/><!-- 固定页面底部按钮背景色 -->
+</resources>
